@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #1877f2;
+  --secondary-color: #1c1e21;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fd-heading img {
+  width: 50%;
+  margin: -25px;
+}
+.fb-heading h2 {
+  color: var(--secondary-color);
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.input {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.fb-login {
+  width: 460px;
+  height: 340px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-left: 90px;
+}
+.photo {
+  height: 160px;
+  width: auto;
+  margin-left: -40px;
+}
+input {
+  width: 340px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 18px;
+}
+input[type="submit"] {
+  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.forget {
+  text-align: center;
+}
+.forget a {
+  color: #1877f2;
+  text-decoration: none;
+}
+.hr {
+  color: #ccc;
+}
+.createAcc {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createAcc a {
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  background-color: #42b72a;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 41px;
+}
